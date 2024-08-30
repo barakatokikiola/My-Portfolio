@@ -30,7 +30,7 @@ const Portfolio=()=>{
         {
             img: bmi,
             title: 'BMI Calculator',
-            live: 'https://barakatokikiola.github.io/-React-BMI-Calculator/',
+            live: 'https://reactbmicalc.netlify.app/',
             github: 'https://github.com/barakatokikiola/-React-BMI-Calculator',
         },
         {

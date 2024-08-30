@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../assets/Barakat Okikiola.svg';
-import { CgMenuHotdog } from "react-icons/cg";
+import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 // import { CiDark, CiLight } from "react-icons/ci";
 
@@ -17,9 +17,9 @@ const Navbar=()=>{
                 <CiLight className=" swap-off fill-current text-4xl"/>
                 <CiDark  className=" swap-on fill-current text-4xl"/>
             </label> */}
-            <label className="btn btn-circle swap swap-rotate">
+            <label className=" swap swap-rotate">
                 <input type="checkbox" />
-                <CgMenuHotdog  className=" swap-off fill-current text-4xl"/>
+                <CiMenuFries  className=" swap-off fill-current text-4xl"/>
                 <IoMdClose  className=" swap-on fill-current text-4xl"/>
             </label>
         </div>
