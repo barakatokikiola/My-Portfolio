@@ -51,7 +51,7 @@ const Portfolio=()=>{
             <div className="flex text-pastel-violet justify-center mx-auto py-5">
                 <h1 className="text-4xl font-bold">My Works</h1>
             </div>
-            <div className='container px-10 grid md:grid-cols-3 justify-center items-center gap-8 mx-auto my-5'>
+            <div className='flex flex-row flex-wrap p-8 justify-center items-center gap-8 mx-auto my-5'>
         {cardList.map((card) => {
             return (
                 <WorkCard 
