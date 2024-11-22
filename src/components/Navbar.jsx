@@ -10,7 +10,9 @@ const Navbar=()=>{
     return(
         <div className="flex p-5 bg-inherit justify-between">
             <div className="">
-                <img src={logo} alt='barakat' />
+                <a href="/">
+                <img src={logo} alt='logo' />
+                </a>
             </div>
             {/* <label className="btn btn-circle swap swap-rotate">
                 <input type="checkbox" className="theme-controller" value="synthwave" />
@@ -26,7 +28,7 @@ const Navbar=()=>{
             </summary>
         <ul
           tabIndex={0}
-          className="menu dropdown-content bg-base-100 rounded-box z-[1] mt-4 w-52 p-2 shadow">
+          className="menu dropdown-content bg-base-100 z-[1] mt-4 w-52 p-2 shadow">
           <li><a href="https://www.x.com/barakatokikiola" target="_blank" rel="noreferrer">Twitter</a></li>
           <li><a href="https://www.github.com/barakatokikiola" target="_blank" rel="noreferrer">GitHub</a></li>
           <li><a href="https://www.linkedin.com/in/barakatokikiola" target="_blank" rel="noreferrer">Linkedin</a></li>

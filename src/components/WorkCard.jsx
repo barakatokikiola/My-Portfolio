@@ -16,14 +16,25 @@ const WorkCard =(props)=> {
             <div className='flex flex-row justify-around py-2 text-center'>
             <div className='items'>
                <a href={props.live}>
-               <button className='btn text-burnt-sienna hover:text-off-white bg-transparent hover:bg-[#8b250b]
-                block px-[1.5rem] rounded-none border-1 border-sandy-brown hover:translate-x-6'>Live</button>
+               <button className='bg-transparent px-8 py-2 border-burnt-sienna border-2
+                text-burnt-sienna 
+                hover:shadow-[inset_8rem_0_0_0] hover:shadow-burnt-sienna hover:text-[#fff]
+                duration-[900ms,1000ms] transition-[color,box-shadow]'>Live</button>
                </a>
             </div>
             <div className='items'>
             <a href={props.github}>
-               <button className='btn text-burnt-sienna hover:text-off-white bg-transparent hover:bg-[#8b250b]
-                block px-[1.5rem] rounded-none border-1 border-burnt-sienna hover:translate-x-6'>GitHub</button>
+         
+
+
+    <button class="bg-transparent px-8 py-2 border-burnt-sienna border-2 text-burnt-sienna 
+    
+    hover:shadow-[inset_8rem_0_0_0] hover:shadow-burnt-sienna hover:text-[#fff]
+     duration-[900ms,1000ms] transition-[color,box-shadow]">
+        GitHub
+    </button>
+
+
                </a>
                </div>
         </div>
