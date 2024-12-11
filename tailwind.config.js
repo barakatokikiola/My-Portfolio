@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'londrina-outline':["Londrina Outline", 'sans-serif'],
+      },
       keyframes: {
         cube: {
           from: {
@@ -16,9 +19,37 @@ module.exports = {
             opacity: "0",
           },
         },
-      },
+      
+        typewriter: {
+            to: {
+              left: '100%',
+            },
+          },
+        blink: {
+            '0%': {
+              opacity: '0',
+            },
+            '0.1%': {
+              opacity: '1',
+            },
+            '50%': {
+              opacity: '1',
+            },
+            '50.1%': {
+              opacity: '0',
+            },
+            '100%': {
+              opacity: '0',
+            },
+          },
+        },
+      
       animation: {
         cube: "cube 2s ease-in-out forwards",
+        typewriter: 'typewriter 2s steps(11) forwards',
+        caret: 'typewriter 2s steps(11) forwards, blink 1s steps(11) infinite 2s',
+        
+       
       },
     
     },

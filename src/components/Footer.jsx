@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 const Footer=()=>{
 
     return(
-        <div className="flex flex-row justify-evenly px-5 py-20 text-[#8b250b] font-semibold">
+        <div className="flex flex-row justify-evenly px-5 py-20 text-charcoal font-semibold">
             <div className="">
                 <p>&copy; BARAKAT TAJUDEEN 2024</p>
             </div>

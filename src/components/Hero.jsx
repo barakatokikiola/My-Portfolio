@@ -7,22 +7,22 @@ import Background from "./Background";
 const Hero =() => {
 
     return(
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col md:flex-row pb-5">
             
           
-            <div className="p-10 lg:p-20 z-10 bg-burnt-sienna text-saffron w-full lg:w-2/3">
+            <div className="p-10 md:p-20 z-10 w-full md:w-[60%] text-[#000]">
             
-                <h1 className="text-6xl font-bold text-off-white">FrontEnd</h1>
-                <h1 className="text-6xl font-bold ">Developer.</h1>
-                <p className="my-5 lg:w-1/2 w-full text-justify text-off-white ">Hi, I'm Barakat, a passionate Frontend Developer with a knack for turning ideas into interactive, 
+                <button className="text-6xl font-bold font-londrina-outline">FrontEnd</button>
+                <h1 className="text-6xl font-londrina-outline ">Developer.</h1>
+                <p className="my-5 w-full text-justify p-6">Hi, I'm Barakat, a passionate Frontend Developer with a knack for turning ideas into interactive, 
                     user-friendly web experiences. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React and Next.js,
                      I craft responsive, intuitive, and visually appealing websites. Explore my work, 
                      and let's build something amazing together!</p>
                      
             </div>
-            <div className="p-10  lg:p-10  w-full mx-auto justify-center lg:w-1/3 bg-saffron lg:relative">
+            <div className="p-10  w-full mx-auto justify-center md:w-[40%] bg-saffron/25 md:relative">
             <Background/>
-                <img src={barakat} alt='' className="lg:absolute lg:-left-24 z-20"  />
+                <img src={barakat} alt='' className="md:absolute md:-left-24 z-20 my-auto"  />
             </div>
            
         </div>
