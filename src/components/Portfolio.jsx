@@ -48,10 +48,12 @@ const Portfolio=()=>{
      ]
     return(
         <div className="">
+            
             <div className="flex text-pastel-violet justify-center mx-auto py-5">
                 <h1 className="text-4xl font-bold">My Works</h1>
             </div>
-            <div className='flex flex-row flex-wrap p-8 justify-center items-center gap-8 mx-auto my-5'>
+            <div className='z-10 flex flex-row flex-wrap p-8 justify-center items-center gap-8 mx-auto my-5'>
+            
         {cardList.map((card) => {
             return (
                 <WorkCard 
@@ -62,7 +64,9 @@ const Portfolio=()=>{
                 />
             )
         })}
+        
         </div>
+     
         </div>
     )
 }

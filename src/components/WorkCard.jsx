@@ -5,6 +5,7 @@ const WorkCard =(props)=> {
 
     return(
         <>
+        
         <div className='outline outline-1 outline-[#c5c5c5] card-compact rounded-lg'>
             <div className='card-img w-full'>
             <img src={props.img} alt='' className='w-full h-64' />

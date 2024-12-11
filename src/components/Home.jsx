@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
+import Contact from "./Contact";
+
 
 const Home=()=>{
 
@@ -11,6 +13,7 @@ const Home=()=>{
            <Navbar />
            <Hero />
            <Portfolio />
+           <Contact />
            <Footer />
         </div>
     )
