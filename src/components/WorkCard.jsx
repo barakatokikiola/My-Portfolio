@@ -17,9 +17,9 @@ const WorkCard =(props)=> {
             <div className='flex flex-row justify-around py-2 text-center'>
             <div className='items'>
                <a href={props.live}>
-               <button className='bg-transparent px-8 py-2 border-burnt-sienna border-2
-                text-burnt-sienna 
-                hover:shadow-[inset_8rem_0_0_0] hover:shadow-burnt-sienna hover:text-[#fff]
+               <button className='bg-transparent px-8 py-2 border-persian-green border-2
+                text-persian-green 
+                hover:shadow-[inset_8rem_0_0_0] hover:shadow-persian-green hover:text-[#fff]
                 duration-[900ms,1000ms] transition-[color,box-shadow]'>Live</button>
                </a>
             </div>
@@ -28,9 +28,9 @@ const WorkCard =(props)=> {
          
 
 
-    <button class="bg-transparent px-8 py-2 border-burnt-sienna border-2 text-burnt-sienna 
+    <button class="bg-transparent px-8 py-2 border-persian-green border-2 text-persian-green 
     
-    hover:shadow-[inset_8rem_0_0_0] hover:shadow-burnt-sienna hover:text-[#fff]
+    hover:shadow-[inset_8rem_0_0_0] hover:shadow-persian-green hover:text-[#fff]
      duration-[900ms,1000ms] transition-[color,box-shadow]">
         GitHub
     </button>

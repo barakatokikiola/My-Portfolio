@@ -11,7 +11,7 @@ const Contact = () => {
       </div>
       <div className="w-4/5 h-full flex flex-col md:flex-row shadow-xl rounded-xl self-center">
       
-      <div className="md:w-[35%] w-full h-full p-8 bg-persian-green rounded-xl shadow-burnt-sienna flex flex-col text-[#fff] text-lg space-y-8">
+      <div className="md:w-[35%] w-full h-full p-8 bg-persian-green rounded-xl shadow-burnt-sienna flex flex-col text-[#fff] md:text-lg text-md font-londrina-outline space-y-8">
       <div className='w-full inline-flex space-x-3'>
       <MdMail className='my-auto' />
       <p>barakattajudeen2018@gmail.com</p>

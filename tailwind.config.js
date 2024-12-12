@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'londrina-outline':["Londrina Outline", 'sans-serif'],
+        'londrina-outline':["Cormorant Garamond", 'serif'],
       },
       keyframes: {
         cube: {

@@ -14,11 +14,6 @@ const Navbar=()=>{
                 <img src={logo} alt='logo' />
                 </a>
             </div>
-            {/* <label className="btn btn-circle swap swap-rotate">
-                <input type="checkbox" className="theme-controller" value="synthwave" />
-                <CiLight className=" swap-off fill-current text-4xl"/>
-                <CiDark  className=" swap-on fill-current text-4xl"/>
-            </label> */}
 
 <details className="dropdown dropdown-end">
         <summary tabIndex={0} role="button" className="btn bg-transparent border-none hover:bg-sandy-brown rounded-btn">
