@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/barakat.png';
+import logo from '../assets/Group 1.png';
 import { CiMenuFries } from "react-icons/ci";
 
 
@@ -8,17 +8,17 @@ import { CiMenuFries } from "react-icons/ci";
 const Navbar=()=>{
 
     return(
-        <div className="flex p-5 bg-inherit justify-between">
-            <div className="">
+        <div className="flex p-5 bg-transparent justify-between w-full">
+            <div className="z-50">
                 <a href="/">
-                <img src={logo} alt='logo' />
+                <img src={logo} alt='logo' className="md:w-full w-[60%]" />
                 </a>
             </div>
 
-<details className="dropdown dropdown-end">
-        <summary tabIndex={0} role="button" className="btn bg-transparent border-none hover:bg-sandy-brown rounded-btn">
+<details className="z-50 dropdown dropdown-end cursor-pointer">
+        <summary tabIndex={0} role="button" className="btn bg-transparent border-none hover:bg-persian-green/10 rounded-btn">
         
-                <CiMenuFries  className="text-4xl"/>
+                <CiMenuFries  className="md:text-4xl text-3xl"/>
             
             </summary>
         <ul

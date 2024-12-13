@@ -10,7 +10,7 @@ const WorkCard =(props)=> {
             <div className='card-img w-full'>
             <img src={props.img} alt='' className='w-full h-64' />
             </div>
-            <div className='card-details px-2 text-[#8b250b]'>
+            <div className='card-details px-2 text-persian-green'>
             <div className='card-title font-semibold text-sm py-2'>
                 <h2>{props.title}</h2>
                 </div>
