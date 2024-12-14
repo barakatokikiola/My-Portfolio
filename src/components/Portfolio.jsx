@@ -47,7 +47,7 @@ const Portfolio=()=>{
         },
      ]
     return(
-        <div className="">
+        <div className="scroll-smooth" data-aos="fade-down" data-aos-duration="1000">
             
             <div className="flex text-pastel-violet justify-center mx-auto py-5">
                 <h1 className="text-4xl font-bold">My Works</h1>
