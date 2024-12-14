@@ -11,10 +11,12 @@ const Home=()=>{
     return(
         <div className="">
            <Navbar />
+           <div className="px-8">
            <Hero />
            <Portfolio />
            <Contact />
            <Footer />
+           </div>
         </div>
     )
 }

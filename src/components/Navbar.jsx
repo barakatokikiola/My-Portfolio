@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from '../assets/Group 2.svg';
+import logo1 from '../assets/Source Code.svg';
 import { CiMenuFries } from "react-icons/ci";
 
 
@@ -7,11 +8,28 @@ import { CiMenuFries } from "react-icons/ci";
 
 const Navbar=()=>{
 
+    const [isDark, setIsDark] = useState(true);
+
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          setIsDark(!entry.isIntersecting);
+        },
+        { threshold: 0.1 }
+      );
+  
+      const target = document.getElementById('hero-section');
+      if (target) observer.observe(target);
+  
+      return () => {
+        if (target) observer.unobserve(target);
+      };
+    }, []);
     return(
-        <div className="flex p-5 bg-transparent justify-between w-full">
+        <div className="fixed top-0 z-50 flex p-5 bg-white justify-between w-screen">
             <div className="z-50 my-auto">
                 <a href="/">
-                <img src={logo} alt='logo' className="md:w-full w-[60%]" />
+                <img src={isDark ? `${logo1}` : `${logo}`} alt='logo' className="md:w-full w-[60%]" />
                 </a>
             </div>
 
