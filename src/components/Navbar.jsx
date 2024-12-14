@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/Group 1.png';
+import logo from '../assets/Group 2.svg';
 import { CiMenuFries } from "react-icons/ci";
 
 
@@ -9,7 +9,7 @@ const Navbar=()=>{
 
     return(
         <div className="flex p-5 bg-transparent justify-between w-full">
-            <div className="z-50">
+            <div className="z-50 my-auto">
                 <a href="/">
                 <img src={logo} alt='logo' className="md:w-full w-[60%]" />
                 </a>

@@ -10,16 +10,16 @@ const WorkCard =(props)=> {
             <div className='card-img w-full'>
             <img src={props.img} alt='' className='w-full h-64' />
             </div>
-            <div className='card-details px-2 text-persian-green'>
+            <div className='card-details px-2 text-purple-900'>
             <div className='card-title font-semibold text-sm py-2'>
                 <h2>{props.title}</h2>
                 </div>
             <div className='flex flex-row justify-around py-2 text-center'>
             <div className='items'>
                <a href={props.live}>
-               <button className='bg-transparent px-8 py-2 border-persian-green border-2
-                text-persian-green 
-                hover:shadow-[inset_8rem_0_0_0] hover:shadow-persian-green hover:text-[#fff]
+               <button className='bg-transparent px-8 py-2 border-purple-900 border-2
+                text-purple-900 
+                hover:shadow-[inset_8rem_0_0_0] hover:shadow-purple-900 hover:text-[#fff]
                 duration-[900ms,1000ms] transition-[color,box-shadow]'>Live</button>
                </a>
             </div>
@@ -28,9 +28,9 @@ const WorkCard =(props)=> {
          
 
 
-    <button class="bg-transparent px-8 py-2 border-persian-green border-2 text-persian-green 
+    <button class="bg-transparent px-8 py-2 border-purple-900 border-2 text-purple-900 
     
-    hover:shadow-[inset_8rem_0_0_0] hover:shadow-persian-green hover:text-[#fff]
+    hover:shadow-[inset_8rem_0_0_0] hover:shadow-purple-900 hover:text-[#fff]
      duration-[900ms,1000ms] transition-[color,box-shadow]">
         GitHub
     </button>

@@ -47,9 +47,9 @@ const Portfolio=()=>{
         },
      ]
     return(
-        <div className="scroll-smooth" data-aos="fade-down" data-aos-duration="1000">
+        <div className="scroll-smooth pt-16" data-aos="fade-down" data-aos-duration="1000">
             
-            <div className="flex text-pastel-violet justify-center mx-auto py-5">
+            <div className="flex text-pastel-violet justify-center mx-auto pt-5 mt-12">
                 <h1 className="text-4xl font-bold">My Works</h1>
             </div>
             <div className='z-10 flex flex-row flex-wrap p-8 justify-center items-center gap-8 mx-auto my-5'>
