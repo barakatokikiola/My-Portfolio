@@ -11,7 +11,7 @@ const Home=()=>{
     return(
         <div className="">
            <Navbar />
-           <div className="px-8">
+           <div className="md:px-12">
            <Hero />
            <Portfolio />
            <Contact />

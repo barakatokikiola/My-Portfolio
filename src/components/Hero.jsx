@@ -7,7 +7,7 @@ import Background from "./Background";
 const Hero =() => {
 
     return(
-        <div id='hero-section' className="flex flex-col pt-20 md:flex-row z-10">
+        <div id='hero-section' className="flex flex-col md:pt-20 md:flex-row z-10">
             
           
             <div className="p-4 md:p-16 w-full md:w-[60%] text-[#000]">
