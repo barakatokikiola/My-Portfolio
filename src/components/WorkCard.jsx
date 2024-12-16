@@ -17,7 +17,7 @@ const WorkCard =(props)=> {
                 </div>
             <div className="technologies flex text-md font-light">{props.tech}</div>
             <div className="description text-sm">{props.description}</div>
-            <div className='flex flex-row justify-around py-2 text-center'>
+            <div className='flex flex-col md:flex-row justify-around space-y-3 py-2 text-center'>
             <div className='items'>
                <a href={props.live}>
                <button className='bg-transparent px-8 py-2 border-purple-950 border-[1px]
