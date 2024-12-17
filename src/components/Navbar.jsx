@@ -32,7 +32,7 @@ const Navbar=()=>{
                 <img src={isHero ? `${logo1}` : `${logo}`} alt='logo' className={isHero ? 'w-8':'w-24'}  />
                 </a>
             </div>
-
+       
 <details className="z-50 dropdown dropdown-end cursor-pointer">
         <summary tabIndex={0} role="button" className="btn bg-transparent border-none hover:bg-persian-green/10 rounded-btn">
         
