@@ -5,6 +5,7 @@ import krawd from "../assets/krawd.png";
 import credo from "../assets/credo.png";
 import movie from "../assets/movie.png";
 import todo from "../assets/laptop.png";
+import mssn from '../assets/mssn.png';
 import bootstrap from "../icons/bootstrap5.svg";
 import css3 from "../icons/css3.svg";
 import html5 from "../icons/html5.svg";
@@ -62,6 +63,15 @@ const Portfolio = () => {
       description:
         "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
     },
+    {
+        img: mssn,
+        title: "MSSN Landing Page",
+        live: "https://barakatokikiola.github.io/MSSN-Unilag/",
+        github: "https://github.com/barakatokikiola/MSSN-Unilag",
+        tech: [html5,css3,js, bootstrap],
+        description:
+          "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+      },
   ];
 
   return (
