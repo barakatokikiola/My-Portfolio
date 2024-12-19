@@ -29,7 +29,7 @@ const Navbar=()=>{
         <div className="md:fixed top-0 z-50 flex p-5 bg-transparent justify-between w-screen">
             <div className="z-50 my-auto">
                 <a href="/">
-                <img src={isHero ? `${logo1}` : `${logo}`} alt='logo' className={isHero ? 'w-8':'w-24'}  />
+                <img src={isHero ? `${logo1}` : `${logo}`} alt='logo' className={isHero ? 'w-8':'w-24'} loading="lazy"  />
                 </a>
             </div>
        

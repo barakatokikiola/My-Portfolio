@@ -1,23 +1,30 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Portfolio from "./Portfolio";
-import Footer from "./Footer";
-import Contact from "./Contact";
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Footer from './Footer';
 
+const Home = () => {
+  return (
+    <>
+      <Navbar />
+      
+        <Hero />
+  
 
-const Home=()=>{
+     
+        <Portfolio />
+     
 
-    return(
-        <div className="">
-           <Navbar />
-           <div className="md:px-12">
-           <Hero />
-           <Portfolio />
-           <Contact />
-           <Footer />
-           </div>
-        </div>
-    )
-}
+    
+        <Contact />
+   
+
+        <Footer />
+ 
+    </>
+  );
+};
+
 export default Home;

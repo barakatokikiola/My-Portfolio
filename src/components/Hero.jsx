@@ -7,7 +7,7 @@ import Background from "./Background";
 const Hero =() => {
 
     return(
-        <div id='hero-section' className="flex flex-col md:pt-20 md:flex-row z-10">
+        <div id='hero-section' className="flex flex-col md:pt-24 md:flex-row z-10">
             
           
             <div className="p-4 md:p-16 w-full md:w-[60%] text-[#000]">
@@ -24,7 +24,7 @@ const Hero =() => {
             </div>
             <div className="p-10  w-full mx-auto justify-center md:w-[40%] bg-purple-900/25 md:relative">
             <Background/>
-                <img src={barakat} alt='' className="md:absolute md:-left-24 z-20 my-auto"  />
+                <img src={barakat} alt='' className="md:absolute md:-left-24 z-20 my-auto" loading="lazy"  />
             </div>
            
         </div>
