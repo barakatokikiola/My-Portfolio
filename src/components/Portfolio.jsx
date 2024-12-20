@@ -75,8 +75,8 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="scroll-smooth md:pt-16" data-aos='fade-up' data-aos-duration='2000'>
-      <div className="flex text-pastel-violet justify-center mx-auto pt-5 mt-4 md:mt-12">
+    <div className="scroll-smooth md:pt-16" data-aos='fade-up' data-aos-duration='1500'>
+      <div className="flex text-purple-800 justify-center mx-auto pt-5 mt-4 md:mt-12">
         <h1 className="text-4xl font-bold">My Works</h1>
       </div>
       <div className="z-10 flex flex-row flex-wrap p-3 justify-center items-center gap-8 mx-auto md:my-5">

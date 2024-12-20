@@ -12,12 +12,12 @@ const Hero =() => {
           
             <div className="p-4 md:p-16 w-full md:w-[60%] text-[#000]">
             
-                <div className="md:text-start text-center text-purple-950">
+                <div className="md:text-start text-center text-purple-900">
                 <h1 className="text-4xl md:text-6xl font-bold font-cormorant">FRONTEND</h1>
                 <h1 className="text-4xl md:text-6xl font-cormorant">DEVELOPER.</h1>
                 </div>
                 <p className="my-4 w-full md:w-[70%] text-justify p-4">Hi, I'm Barakat, a passionate Frontend Developer with a knack for turning ideas into interactive, 
-                    user-friendly web experiences. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like <span className="font-bold text-purple-900">React</span> and <span className="font-bold text-purple-900">Next.js</span>,
+                    user-friendly web experiences. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like <span className="font-bold text-purple-900">React</span> and <span className="font-bold text-pink-600">Next.js</span>,
                      I craft responsive, intuitive, and visually appealing websites. Explore my work, 
                      and let's build something amazing together!</p>
                      
