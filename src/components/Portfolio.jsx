@@ -23,9 +23,10 @@ const Portfolio = () => {
       title: "Creative Nextjs Portfolio",
       live: "https://nextjs-portfolio-pink-pi.vercel.app/",
       github: "https://github.com/barakatokikiola/Nextjs-Portfolio",
-      tech: [html5, css3, js, typescript, tailwindcss, reactjs, nextjs, threejs],
+      tech
+      : [html5, css3, js, typescript, tailwindcss, reactjs, nextjs, threejs],
       description:
-        "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+        "This project showcases a responsive portfolio built with React, TailwindCSS, and Three.js, leveraging Next.js for server-side rendering and performance optimization. The clean, modern design ensures accessibility across devices",
     },
     {
       img: todo,
@@ -34,7 +35,7 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Nextjs-Todo-App",
       tech: [nextjs, reactjs, js, typescript,tailwindcss, html5,css3],
       description:
-        "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+        "A simple and intuitive task management app built with Next.js and React. It offers seamless user experience with TypeScript for type safety and TailwindCSS for modern styling. This responsive app allows users to add, delete, and track tasks efficiently.",
     },
     {
       img: krawd,
@@ -43,7 +44,7 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Krawdwise",
       tech: [reactjs,tailwindcss,js,css3,html5],
       description:
-        "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+        "A sleek and responsive web application built with React and TailwindCSS. Krawdwise offers a dynamic interface for exploring and interacting with content seamlessly. The project emphasizes modern design, intuitive UI/UX, and efficient performance.",
     },
     {
       img: movie,
@@ -52,7 +53,7 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Movie-App",
       tech: [reactjs,bootstrap,js,html5,css3],
       description:
-        "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+        "A React-based app that lets users search for movies quickly and view details using a clean, Bootstrap-powered interface. The app delivers a smooth user experience with responsive design, making it easy to explore and discover movies.",
     },
     {
       img: credo,
@@ -61,7 +62,7 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Credo-Connect",
       tech: [tailwindcss,reactjs,js,html5,css3],
       description:
-        "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+        "A modern, responsive landing page designed using React and TailwindCSS. The project features clean, minimalistic UI components, providing seamless navigation and a visually appealing layout optimized for various devices.",
     },
     {
         img: mssn,
@@ -70,7 +71,7 @@ const Portfolio = () => {
         github: "https://github.com/barakatokikiola/MSSN-Unilag",
         tech: [html5,css3,js, bootstrap],
         description:
-          "This experimental project is built using React, TailwindCSS, and DaisyUI. It is responsive and best viewed on all devices.",
+          "A responsive landing page designed for the Muslim Students' Society of Nigeria (MSSN), UNILAG chapter. Built with HTML5, CSS3, JavaScript, and Bootstrap, it features a clean layout, smooth navigation, and a modern design for effective communication of information.",
       },
   ];
 
