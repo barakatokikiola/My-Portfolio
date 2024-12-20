@@ -2,11 +2,11 @@ import React from "react";
 
 const WorkCard = (props) => {
   return (
-    <div className="flex flex-col md:flex-row text-start mb-6 py-5 space-x-4 shadow-lg rounded-lg w-[80%]">
+    <div className="flex flex-col md:flex-row text-start mb-6 p-3 md:space-x-4 shadow-lg rounded-lg w-[80%]">
       <div className="w-full">
         <img src={props.img} alt={props.title} className="w-full" />
       </div>
-      <div className="flex flex-col md:text-md text-sm my-auto">
+      <div className="flex flex-col w-full md:text-md text-sm my-auto">
         <div className="px-2">
           <div className="font-semibold py-2 text-pink-600">
             <h2>{props.title}</h2>
