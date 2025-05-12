@@ -26,14 +26,23 @@ const Navbar=()=>{
       };
     }, []);
     return(
-        <div className="md:fixed top-0 z-50 flex p-5 bg-transparent justify-between w-screen">
+        <div className="md:fixed top-0 z-50 flex px-4 md:px-16 py-4 bg-white justify-between w-screen">
             <div className="z-50 my-auto">
                 <a href="/">
                 <img src={isHero ? `${logo1}` : `${logo}`} alt='logo' className={isHero ? 'w-8':'w-24'} loading="lazy"  />
                 </a>
             </div>
-       
-<details className="z-50 dropdown dropdown-end cursor-pointer">
+       <nav className="hidden md:flex">
+          <ul
+          tabIndex={0}
+          className="flex space-x-9">
+          <li><a href="https://www.x.com/barakatokikiola" target="_blank" rel="noreferrer">Twitter</a></li>
+          <li><a href="https://www.github.com/barakatokikiola" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/barakatokikiola" target="_blank" rel="noreferrer">Linkedin</a></li>
+            
+        </ul>
+       </nav>
+<details className="z-50 dropdown dropdown-end cursor-pointer md:hidden">
         <summary tabIndex={0} role="button" className="btn bg-transparent border-none hover:bg-persian-green/10 rounded-btn">
         
                 <CiMenuFries  className="md:text-4xl text-3xl"/>

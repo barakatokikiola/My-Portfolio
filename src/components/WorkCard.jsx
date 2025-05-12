@@ -6,7 +6,7 @@ const WorkCard = (props) => {
       <div className="w-full">
         <img src={props.img} alt={props.title} className="w-full" />
       </div>
-      <div className="flex flex-col w-full md:text-md text-sm my-auto">
+      <div className="flex flex-col w-full md:text-md text-base my-auto">
         <div className="px-2">
           <div className="font-semibold py-2 text-pink-600">
             <h2>{props.title}</h2>
@@ -16,7 +16,7 @@ const WorkCard = (props) => {
               <img key={index} src={icon} alt="tech-icon" className="w-[1.5rem] h-[1.5rem]" />
             ))}
           </div>
-          <div className="description text-sm">{props.description}</div>
+          <div className="description text-base">{props.description}</div>
           <div className="flex flex-col md:flex-row justify-around py-4 md:space-y-0 space-y-4 text-center">
             <div className="items">
               <a href={props.live}>

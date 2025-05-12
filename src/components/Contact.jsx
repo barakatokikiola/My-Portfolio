@@ -9,7 +9,7 @@ const Contact = () => {
     <div className='flex flex-col justify-center mx-auto font-cormorant' data-aos='fade-up' data-aos-duration='1500'>
       <div className="flex flex-col space-y-6 py-6 mx-auto justify-center  text-center">
     <h1 className='font-bold text-3xl text-purple-800'>Get In Touch</h1>
-    <p className='w-[50%] mx-auto font-normal text-sm md:text-md'>Lets turn ideas into reality! Whether you're ready to collaborate, brainstorm, or just want to chat, I’d love to hear from you. Drop me a message, and let’s get the ball rolling!</p>
+    <p className='w-[50%] mx-auto font-normal text-base md:text-md'>Lets turn ideas into reality! Whether you're ready to collaborate, brainstorm, or just want to chat, I’d love to hear from you. Drop me a message, and let’s get the ball rolling!</p>
       </div>
       <div className="w-4/5 h-full flex flex-col md:flex-row shadow-xl rounded-xl self-center">
       
