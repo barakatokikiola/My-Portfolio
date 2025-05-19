@@ -13,7 +13,7 @@ const Hero =() => {
         <div id='hero-section' className="flex flex-col  md:pt-24 md:flex-row justify-between z-10 place-items-center gap-y-8">
             
           
-            <div className="p-4 md:p-16 w-full text-[#000] ">
+            <div className="md:p-16 w-full text-[#000] md:pl-[7rem] p-4">
             
                 <div className="md:text-start text-center text-purple-900">
                 <h1 className="text-4xl md:text-[5.5rem]/[7rem] font-bold font-cormorant">FRONTEND</h1>
