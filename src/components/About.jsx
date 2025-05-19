@@ -20,7 +20,7 @@ const About = () => {
 I am passionate about crafting clean, efficient code and building web applications that deliver exceptional user experiences.
         </p>
        </div>
-       <div className="z-50 flex md:p-8 h-full w-full">
+       <div className="flex p-0 md:p-8 h-full w-full place-items-center ml-[-2rem] md:ml-0">
         <img src={about} alt='about' loading='lazy' className='bounce'/>
        </div>
        <Background />
