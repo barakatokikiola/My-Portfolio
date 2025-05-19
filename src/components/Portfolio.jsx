@@ -4,8 +4,10 @@ import creative from "../assets/creative.png";
 import krawd from "../assets/krawd.png";
 import credo from "../assets/credo.png";
 import movie from "../assets/movie.png";
+import revent from '../assets/revent.png';
 import todo from "../assets/laptop.png";
 import mssn from '../assets/mssn.png';
+import angular from '../assets/angular.png';
 import bootstrap from "../icons/bootstrap5.svg";
 import css3 from "../icons/css3.svg";
 import html5 from "../icons/html5.svg";
@@ -25,6 +27,16 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Nextjs-Portfolio",
       tech
       : [html5, css3, js, typescript, tailwindcss, reactjs, nextjs, threejs],
+      description:
+        "This project showcases a responsive portfolio built with React, TailwindCSS, and Three.js, leveraging Next.js for server-side rendering and performance optimization. The clean, modern design ensures accessibility across devices",
+    },
+    {
+      img: revent,
+      title: "Revent Web",
+      live: "https://reventbyb.netlify.app",
+      github: "https://github.com/barakatokikiola/Revent-Website",
+      tech
+      : [html5, css3, js, typescript, tailwindcss, angular],
       description:
         "This project showcases a responsive portfolio built with React, TailwindCSS, and Three.js, leveraging Next.js for server-side rendering and performance optimization. The clean, modern design ensures accessibility across devices",
     },

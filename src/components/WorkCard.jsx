@@ -13,7 +13,7 @@ const WorkCard = (props) => {
           </div>
           <div className="technologies flex space-x-2 py-2">
             {props.tech.map((icon, index) => (
-              <img key={index} src={icon} alt="tech-icon" className="w-[1.5rem] h-[1.5rem]" />
+              <img key={index} src={icon} alt="tech-icon" className="w-[3.5rem] h-[1.5rem]" />
             ))}
           </div>
           <div className="description text-base">{props.description}</div>
