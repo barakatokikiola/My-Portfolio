@@ -11,9 +11,9 @@ const WorkCard = (props) => {
           <div className="font-semibold py-2 text-pink-600">
             <h2>{props.title}</h2>
           </div>
-          <div className="technologies flex space-x-2 py-2">
+          <div className="technologies flex flex-wrap space-2 py-2">
             {props.tech.map((icon, index) => (
-              <img key={index} src={icon} alt="tech-icon" className="w-[3.5rem] h-[1.5rem]" />
+              <img key={index} src={icon} alt="tech-icon" className="w-[3.5rem] h-[1.6rem] mb-4" />
             ))}
           </div>
           <div className="description text-base">{props.description}</div>
