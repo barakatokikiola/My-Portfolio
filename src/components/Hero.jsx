@@ -16,8 +16,8 @@ const Hero =() => {
             <div className="md:p-16 w-full text-[#000] md:pl-[7rem] p-4">
             
                 <div className="md:text-start text-center">
-                <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-bold font-cormorant bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Frontend</h1>
-                <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-cormorant bg-gradient-to-r from-violet-500 to-pink-500 bg-clip-text text-transparent">Developer.</h1>
+                <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-bold font-cormorant bg-gradient-to-r from-pink-800 to-violet-800 bg-clip-text text-transparent">Frontend</h1>
+                <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-cormorant bg-gradient-to-r from-violet-800 to-pink-900 bg-clip-text text-transparent">Developer.</h1>
                 </div>
                 <p className="my-4 w-full text-lg/9 text-justify md:pr-[9rem] md:px-0 px-4">Hi, I'm Barakat, a passionate Frontend Developer with a knack for turning ideas into interactive, 
                     user-friendly web experiences. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks like <span className="font-bold text-purple-900">React</span> and <span className="font-bold text-pink-600">Next.js</span>,
