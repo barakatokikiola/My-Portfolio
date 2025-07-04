@@ -15,7 +15,7 @@ const Hero =() => {
           
             <div className="md:p-16 w-full text-[#000] md:pl-[7rem] p-4">
             
-                <div className="md:text-start text-center">
+                <div className="md:text-start text-center uppercase">
                 <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-bold font-cormorant bg-gradient-to-r from-pink-800 to-violet-800 bg-clip-text text-transparent">Frontend</h1>
                 <h1 className="text-4xl md:text-[5.5rem]/[6rem] font-cormorant bg-gradient-to-r from-violet-800 to-pink-900 bg-clip-text text-transparent">Developer.</h1>
                 </div>
