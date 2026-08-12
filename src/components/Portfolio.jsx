@@ -17,9 +17,19 @@ import reactjs from "../icons/reactjs.svg";
 import tailwindcss from "../icons/tailwindcss.svg";
 import threejs from "../icons/threejs.svg";
 import typescript from "../icons/typescript.svg";
+import film from "../assets/filmpage.png"
 
 const Portfolio = () => {
   const cardList = [
+     {
+      img: film,
+      title: "Film-maker Portfolio Website",
+      live: "https://tarafilms.netlify.app",
+      github: "https://github.com/barakatokikiola/filmmaker-website",
+      tech
+      : [html5, css3, js, tailwindcss, reactjs],
+      description: "Tara Films — A responsive marketing website built for a wedding videography studio, developed solo from design to deployment using React, React Router, and Tailwind CSS. Focused on a polished, cinematic feel that matches the brand's storytelling — including a custom animated hero section, refined typography, and a mobile-first responsive layout tuned for consistency across phones, tablets, and desktop. Deployed on Netlify"
+    },
     {
       img: creative,
       title: "Creative Nextjs Portfolio",
@@ -56,7 +66,7 @@ const Portfolio = () => {
       github: "https://github.com/barakatokikiola/Krawdwise",
       tech: [reactjs,tailwindcss,js,css3,html5],
       description:
-        "A sleek and responsive web application built with React and TailwindCSS. Krawdwise offers a dynamic interface for exploring and interacting with content seamlessly. The project emphasizes modern design, intuitive UI/UX, and efficient performance.",
+        "A web application built with React and TailwindCSS. Krawdwise offers a dynamic interface for exploring and interacting with content seamlessly. The project emphasizes modern design, intuitive UI/UX, and efficient performance.",
     },
     {
       img: movie,
